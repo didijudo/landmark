@@ -1,0 +1,9 @@
+os: osx
+language: cpp
+before_install:
+  - /usr/bin/yes | pip2 uninstall numpy
+  - brew install opencv
+  - brew install wget
+script:
+  - cmake .
+  - make

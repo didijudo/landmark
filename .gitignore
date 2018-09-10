@@ -1,0 +1,11 @@
+CMakeFiles
+CMakeCache.txt
+cmake_*
+.DS_Store
+face
+*.o
+Makefile
+.cproject
+.project
+*.swp
+lbfmodel.yaml
